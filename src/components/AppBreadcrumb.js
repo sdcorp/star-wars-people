@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation, NavLink, matchPath } from 'react-router-dom'
+import { useLocation, NavLink } from 'react-router-dom'
 
 import routes from '../routes'
 

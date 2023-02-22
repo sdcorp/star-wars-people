@@ -1,5 +1,4 @@
 import {
-  CButton,
   CBadge,
   CCard,
   CCardBody,
