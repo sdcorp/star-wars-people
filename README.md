@@ -50,6 +50,3 @@ coreui-free-react-admin-template
 - UI for those pages was located in `/src/views/people`
 - Each page has it's own component: `PeopleList`, `Person`. And also common component `Pagination`
 - `react-query` + `axios` were used for fetching and storing server data. Getting `people` list and `person` detatils was incapsulated inside custom hooks: `usePeopleList` and `usePerson`
-
-
-The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
