@@ -1,8 +1,9 @@
 import React from 'react'
 
+import PeopleDetails from './views/people/PeopleDetails'
+
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const PeopleList = React.lazy(() => import('./views/people/PeopleList'))
-const PeopleDetails = React.lazy(() => import('./views/people/PeopleDetails'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
 
