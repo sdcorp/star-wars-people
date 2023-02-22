@@ -49,4 +49,5 @@ coreui-free-react-admin-template
 - UI was built by using `CoreUI` (based on Bootstrap). It contains two pages: `/people` and `/people/:id`
 - UI for those pages was located in `/src/views/people`
 - Each page has it's own component: `PeopleList`, `Person`. And also common component `Pagination`
-- `react-query` + `axios` were used for fetching and storing server data. Getting `people` list and `person` detatils was incapsulated inside custom hooks: `usePeopleList` and `usePerson`
+- `react-query` + `axios` were used for fetching and storing server data. Getting `people` list and `person` detatils was incapsulated inside custom hooks: `usePeopleList` and `usePerson`. For prod-like environment api BASE_URL or API I would store in `.env`
+- For prod-like environment I would cover react-components by tests using `jest` + `react-testing-library`. Main user cases would be wise to cover by e2e tests using `Cypress`
